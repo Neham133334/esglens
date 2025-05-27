@@ -1,11 +1,10 @@
-import os
+mport os
 import streamlit as st
-import torch
 from utils import (
     load_sentiment_model,
     get_esg_data,
     get_stock_data,
-    get_company_name,
+    get_company_name,  # Now properly imported
     get_news_sentiment,
     display_metrics,
     plot_stock_performance,
