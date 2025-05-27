@@ -1,3 +1,4 @@
+import streamlit as st  
 import yfinance as yf
 import pandas as pd
 import plotly.express as px
@@ -7,6 +8,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import os
 
+# Rest of your utils.py code remains the same...
 # Sentiment model cache
 @st.cache_resource
 def load_sentiment_model():
